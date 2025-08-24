@@ -26,7 +26,7 @@ function Cards({ data, heading }) {
                 {s.name}
               </div>
               <div className="text-xs h-[40%] overflow-hidden">
-                {s.artists.all[0].name}
+                {s.type || s.artists.all[0].name}
               </div>
             </div>
           </div>
