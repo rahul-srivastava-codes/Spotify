@@ -4,7 +4,9 @@ function Login() {
   return (
     <div className="w-full flex">
       <div className="bg-black w-[50%] h-[100vh] select-none ">
-        <div className="text-white px-10 py-3">JIOSAAVN</div>
+        <Link to={"/"} className="text-white px-10 py-3">
+          JIOSAAVN
+        </Link>
         <div className="flex flex-col items-center justify-center">
           <img
             className="object-contain w-full h-[60vh]"

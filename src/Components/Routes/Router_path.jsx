@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../Home";
 import Login from "../partials/Navbar_components/Login";
 import Signup from "../partials/Navbar_components/Signup";
+import Details from "../Details";
 
 function Router_path() {
   return (
@@ -10,6 +11,7 @@ function Router_path() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<Signup></Signup>}></Route>
+        <Route path="/details" element={<Details></Details>}></Route>
       </Routes>
     </div>
   );

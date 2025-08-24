@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 function Signup() {
   return (
     <div className="w-full flex">
-      <div className="bg-black w-[50%] h-[100vh] select-none ">
-        <div className="text-white px-10 py-3">JIOSAAVN</div>
+      <div className="bg-red-400 w-[50%] h-[100vh] select-none ">
+        <Link to={"/"} className="text-white px-10 py-3">
+          JIOSAAVN
+        </Link>
         <div className="flex flex-col items-center justify-center">
           <img
             className="object-contain w-full h-[60vh]"
-            src="https://staticweb6.jiosaavn.com/web6/jioindw/dist/1755752777/_i/artist/Nucleya.png"
+            src="https://staticweb6.jiosaavn.com/web6/jioindw/dist/1755752777/_i/artist/DiljitDosanjh.png"
             alt=""
           />
           <div className="text-white text-5xl font-semibold">

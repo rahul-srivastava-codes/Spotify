@@ -12,7 +12,7 @@ function Home() {
         <div>
           <Sidebar></Sidebar>
         </div>
-        <div className="w-[80vw] h-[80vh] overflow-scroll">
+        <div className="w-[80vw] h-[80vh] overflow-y-scroll">
           <Right></Right>
         </div>
       </div>
